@@ -1,0 +1,15 @@
+### Mount.yazi
+[[manager.prepend_keymap]]
+on  = "M"
+run = "plugin mount"
+
+### Git.yazi
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*"
+run  = "git"
+
+[[plugin.prepend_fetchers]]
+id   = "git"
+name = "*/"
+run  = "git"
