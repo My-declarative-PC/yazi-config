@@ -1,0 +1,6 @@
+\.git.*
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+catppuccin-theme
