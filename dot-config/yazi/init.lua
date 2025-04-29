@@ -1,1 +1,2 @@
-require("git"):setup()require("git"):setup()
+require("git"):setup({ order = 0 })
+require("starship"):setup()

@@ -1,0 +1,11 @@
+"$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
+
+[manager]
+
+prepend_keymap = [
+	# Plugins
+	{ on = "M",          run = "plugin mount" },
+	{ on = "<C-d>",      run = "plugin diff" },
+	{ on = [ "c", "m" ], run = "plugin chmod" },
+]
+
