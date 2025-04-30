@@ -4,13 +4,14 @@
 
 prepend_keymap = [
 	# Bookmarks
-	{ on = [ "g", "h" ], run = "cd ~/",          desc = "Go to Home"},
-	{ on = [ "g", "." ], run = "cd ~/dotfiles",  desc = "Go to 'dot'-files"},
-	{ on = [ "g", "d" ], run = "cd ~/Downloads", desc = "Go to Downloads"},
-	{ on = [ "g", "g" ], run = "cd ~/gits",      desc = "Go to GIT's projects"},
+	{ on = [ "g", "h" ], run = "cd ~/",          desc = "Go to Home" },
+	{ on = [ "g", "." ], run = "cd ~/dotfiles",  desc = "Go to 'dot'-files" },
+	{ on = [ "g", "d" ], run = "cd ~/Downloads", desc = "Go to Downloads" },
+	{ on = [ "g", "g" ], run = "cd ~/gits",      desc = "Go to GIT's projects" },
 
 	# Plugins
-	{ on = "M",          run = "plugin mount" },
-	{ on = [ "c", "m" ], run = "plugin chmod" },
+	{ on = "M",          run = "plugin mount", desc = "Mount disks" },
+	{ on = "C",          run = "plugin ouch",  desc = "Compress with 'ouch'" },
+	{ on = [ "c", "m" ], run = "plugin chmod", desc = "Change mod" },
 ]
 
